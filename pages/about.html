@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../main.css">
+  <title>Basic Nav Example</title>
+</head>
+
+<body>
+  <nav>
+    <a href="#">
+      <picture>
+        <!-- SVG version for all scenarios due to scalability and efficiency -->
+        <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
+        <!-- High resolution PNG for large screens -->
+        <a href="../index.html">
+          <img src="../assets/logo/ECO_logo_small.jpg" alt="ECO company logo">
+        </a>
+      </picture>
+    </a>
+    <span class="spacer"></span>
+    <ul>
+      <li><a href="../index.html" id="current-page">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li id="last-item"><a href="./contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <section>
+    <div class="content-container">
+      <div class="content">
+        <h1 id="about">About</h1>
+      </div>
+    </div>
+  </section>
+
+
+  <nav>
+    <div class="container">
+      <p>FAQ</p>
+      <p>Terms</p>
+      <p>Privacy</p>
+      <p>Cookies</p>
+    </div>
+    <h1 style="text-align: center; color: white;">&copy;2024 My Website</h1>
+  </nav>
+</body>
+
+</html>
