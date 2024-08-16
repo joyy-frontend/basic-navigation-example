@@ -49,9 +49,9 @@ nav ul li a:visited {
     color: white;
 }
 
-/* nav ul li a:hover {
+nav ul li a:hover {
     color: rgb(229, 145, 0);
-} */
+}
 
 nav ul li a:active {
     color: rgb(92, 229, 0);
